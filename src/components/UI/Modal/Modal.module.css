@@ -1,0 +1,42 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.modal-warning {
+    width: 700px;
+    background-color: aliceblue;
+}
+.modal-warning h1 {
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    background-color: purple;
+    margin-bottom: 40px;
+}
+.modal-warning p {
+    padding: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.modal-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.modal-button button {
+    padding: 5px 10px;
+    color: white;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+}

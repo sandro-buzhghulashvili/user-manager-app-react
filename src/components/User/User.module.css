@@ -1,0 +1,43 @@
+.user {
+    position: relative;
+    width: 600px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.user-inner {
+    position: relative;
+    padding: 10px 5px;
+}
+.user-inner button {
+    top: 0;
+    right: 0;
+    padding: 5px 15px;
+    height: 100% !important;
+    position: absolute;
+    height: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.user-inner button:nth-of-type(2) {
+    right: 50px;
+    background-color: lightskyblue;
+}
+.user-inner button:nth-of-type(2):hover {
+    background-color: aqua;
+}
+.user-inner button:hover {
+    background-color: brown;
+}
+
+@media(max-width:610px) {
+    .user {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+}

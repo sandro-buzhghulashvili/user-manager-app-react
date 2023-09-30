@@ -1,0 +1,58 @@
+.user-update {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: aliceblue;
+    width: 600px;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+.input-group label {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.input-group input {
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+.input-group input:focus {
+    outline: none;
+}
+.user-update button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 20px 0 0;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: .5s;
+}
+.user-update button:hover {
+    background-color: green;
+}
+@media(max-width:610px) {
+    .user-update {
+        width: 100%;
+    }
+}
+@media(max-width:500px) {
+    .user-update {
+        flex-direction: column;
+        height: fit-content;
+        padding: 5px 0;
+    }
+}
